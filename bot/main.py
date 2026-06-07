@@ -7,7 +7,8 @@ from aiogram.types import PollAnswer
 
 from bot.config import BOT_TOKEN
 from bot.database import init_db
-from bot.handlers import quiz, start, stats
+from bot.handlers import group, pro, quiz, start, stats
+from bot.middlewares import StartDebounceMiddleware
 from bot.services.quiz import handle_poll_answer
 from bot.services.scheduler import setup_scheduler
 
@@ -27,8 +28,11 @@ async def main() -> None:
 
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
+    dp.message.middleware(StartDebounceMiddleware())
 
     dp.include_router(start.router)
+    dp.include_router(pro.router)
+    dp.include_router(group.router)
     dp.include_router(quiz.router)
     dp.include_router(stats.router)
 
@@ -36,13 +40,19 @@ async def main() -> None:
     async def on_poll_answer(poll_answer: PollAnswer) -> None:
         await handle_poll_answer(bot, poll_answer)
 
+    await bot.delete_webhook(drop_pending_updates=True)
+
     scheduler = setup_scheduler(bot)
     scheduler.start()
     logger.info("Kunlik savollar rejalashtirildi")
 
     logger.info("Bot ishga tushmoqda...")
     try:
-        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
+        await dp.start_polling(
+            bot,
+            drop_pending_updates=True,
+            allowed_updates=dp.resolve_used_update_types(),
+        )
     finally:
         scheduler.shutdown()
         await bot.session.close()

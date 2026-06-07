@@ -1,0 +1,19 @@
+[Unit]
+Description=Avtotest Telegram Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=botuser
+Group=botuser
+WorkingDirectory=/opt/avtotestubot
+EnvironmentFile=/opt/avtotestubot/.env
+ExecStart=/opt/avtotestubot/venv/bin/python run.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

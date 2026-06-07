@@ -1,12 +1,14 @@
 from aiogram import F, Router
+from aiogram.enums import ChatType
 from aiogram.types import Message
 
 from bot.database import get_user_stats
 
 router = Router()
+PRIVATE = F.chat.type == ChatType.PRIVATE
 
 
-@router.message(F.text == "📊 Statistika")
+@router.message(PRIVATE, F.text == "📊 Statistika")
 async def show_stats(message: Message) -> None:
     if not message.from_user:
         return

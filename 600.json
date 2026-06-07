@@ -1918,11 +1918,11 @@
         "media_url": "u13uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Svetoforning qizil va sarik chiroqlaridagi qora yo'naltirgichlar nima haqida axborot beradi?",
+                "text": "Svetoforning qizil va sariq chiroqlaridagi qora yo'naltirgichlar nima haqida axborot beradi?",
                 "options": [
                     {
                         "id": 1,
-                        "text": "Svetoforning qizil va sarik chiroqlarida harakatlanishning ruxsat etilgan yo'nalishlari haqida",
+                        "text": "Svetoforning qizil va sariq chiroqlarida harakatlanishning ruxsat etilgan yo'nalishlari haqida",
                         "is_correct": false
                     },
                     {
@@ -3448,7 +3448,7 @@
         "media_url": "",
         "content": {
             "uz_lat": {
-                "text": "Svetaforning qizil yoki sarik ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yo'naltirgichi yashil ishorasi yo'nalishida harakatlanayotgan transport vositasining haydovchisi kimga yo'l berishi kerak?",
+                "text": "Svetaforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yo'naltirgichi yashil ishorasi yo'nalishida harakatlanayotgan transport vositasining haydovchisi kimga yo'l berishi kerak?",
                 "options": [
                     {
                         "id": 1,
@@ -4267,17 +4267,17 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Tramvay va yashil avtomobil, sarik avtomobil",
+                        "text": "Tramvay va yashil avtomobil, sariq avtomobil",
                         "is_correct": true
                     },
                     {
                         "id": 2,
-                        "text": "Yashil, sarik avtomobillar, tramvay",
+                        "text": "Yashil, sariq avtomobillar, tramvay",
                         "is_correct": false
                     },
                     {
                         "id": 3,
-                        "text": "Tramvay, sarik, yashil avtomobillar",
+                        "text": "Tramvay, sariq, yashil avtomobillar",
                         "is_correct": false
                     }
                 ]
@@ -6413,7 +6413,7 @@
         "media_url": "u165uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Chapga burilayotgan sarik avtomobil haydovchisi qaysi bo'laklarni egallashi kerak?",
+                "text": "Chapga burilayotgan sariq avtomobil haydovchisi qaysi bo'laklarni egallashi kerak?",
                 "options": [
                     {
                         "id": 1,
@@ -9477,7 +9477,7 @@
                     },
                     {
                         "id": 4,
-                        "text": "Sarik avtomobil",
+                        "text": "sariq avtomobil",
                         "is_correct": false
                     }
                 ]
@@ -12727,7 +12727,7 @@
                     },
                     {
                         "id": 2,
-                        "text": "Motosikl va sarik avtomobil",
+                        "text": "Motosikl va sariq avtomobil",
                         "is_correct": false
                     }
                 ]
@@ -13757,7 +13757,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Qizil, sarik va yashil avtomobillarga",
+                        "text": "Qizil, sariq va yashil avtomobillarga",
                         "is_correct": false
                     }
                 ]
@@ -15502,7 +15502,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Ko'k-sarik avtomobilga to'g'riga, qizil avtomobilga to'g'riga va o'ngga",
+                        "text": "Ko'k-sariq avtomobilga to'g'riga, qizil avtomobilga to'g'riga va o'ngga",
                         "is_correct": false
                     },
                     {
@@ -15512,7 +15512,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Ko'k-sarik avtomobilga chapga",
+                        "text": "Ko'k-sariq avtomobilga chapga",
                         "is_correct": true
                     }
                 ]
@@ -15577,12 +15577,12 @@
                     },
                     {
                         "id": 2,
-                        "text": "Sarik va yashil avtomobil",
+                        "text": "sariq va yashil avtomobil",
                         "is_correct": false
                     },
                     {
                         "id": 3,
-                        "text": "Oq va sarik avtomobil",
+                        "text": "Oq va sariq avtomobil",
                         "is_correct": false
                     },
                     {
@@ -15672,7 +15672,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Sarik va qizil avtomobilga",
+                        "text": "sariq va qizil avtomobilga",
                         "is_correct": true
                     },
                     {
@@ -18702,7 +18702,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Faqat sarik avtomobil haydovchisi",
+                        "text": "Faqat sariq avtomobil haydovchisi",
                         "is_correct": true
                     },
                     {
@@ -19132,7 +19132,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Ikkinchi bo'lib, sarikdan keyin",
+                        "text": "Ikkinchi bo'lib, sariqdan keyin",
                         "is_correct": false
                     },
                     {
@@ -19142,7 +19142,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Uchinchi bo'lib, yashil, sarikdan keyin",
+                        "text": "Uchinchi bo'lib, yashil, sariqdan keyin",
                         "is_correct": false
                     }
                 ]
@@ -20368,7 +20368,7 @@
         "media_url": "u261uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Sarik avtobusning haydovchisiga chorrahaga chiqishga ruxsat etiladimi?",
+                "text": "sariq avtobusning haydovchisiga chorrahaga chiqishga ruxsat etiladimi?",
                 "options": [
                     {
                         "id": 1,
@@ -22057,17 +22057,17 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Qizil va sarik avtomobilga",
+                        "text": "Qizil va sariq avtomobilga",
                         "is_correct": true
                     },
                     {
                         "id": 2,
-                        "text": "Qizil, sarik va yashil avtomobilga",
+                        "text": "Qizil, sariq va yashil avtomobilga",
                         "is_correct": false
                     },
                     {
                         "id": 3,
-                        "text": "Qizil, ko'k, yashil va sarik avtomobilga",
+                        "text": "Qizil, ko'k, yashil va sariq avtomobilga",
                         "is_correct": false
                     }
                 ]
@@ -24917,12 +24917,12 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Oq avtomobil, sarik bilan bir vaqtda",
+                        "text": "Oq avtomobil, sariq bilan bir vaqtda",
                         "is_correct": true
                     },
                     {
                         "id": 2,
-                        "text": "Sarik avtomobil",
+                        "text": "sariq avtomobil",
                         "is_correct": false
                     },
                     {
@@ -27498,7 +27498,7 @@
         "media_url": "u282uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Svetoforning bir vaqtda yoqilgan sarik va qizil ishoralari nimani bildiradi?",
+                "text": "Svetoforning bir vaqtda yoqilgan sariq va qizil ishoralari nimani bildiradi?",
                 "options": [
                     {
                         "id": 1,
@@ -28632,7 +28632,7 @@
                     },
                     {
                         "id": 2,
-                        "text": "Sarik avtomobil",
+                        "text": "sariq avtomobil",
                         "is_correct": false
                     },
                     {
@@ -28863,7 +28863,7 @@
         "media_url": "u193uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Yotiq chiziqning uzluksiz sarik chiziq'i nimani bildiradi?",
+                "text": "Yotiq chiziqning uzluksiz sariq chiziq'i nimani bildiradi?",
                 "options": [
                     {
                         "id": 1,
@@ -29357,7 +29357,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Yashil avtomobil sarik bilan bir vaqtda",
+                        "text": "Yashil avtomobil sariq bilan bir vaqtda",
                         "is_correct": false
                     },
                     {
@@ -29367,7 +29367,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Ko'k avtomobil sarik bilan bir vaqtda",
+                        "text": "Ko'k avtomobil sariq bilan bir vaqtda",
                         "is_correct": true
                     }
                 ]
@@ -29633,7 +29633,7 @@
         "media_url": "u217uz.webp",
         "content": {
             "uz_lat": {
-                "text": "To'xtashni taqiqlovchi joylarni bildiruvchi sidirg'a sarik chiziq qayerda chiziladi?",
+                "text": "To'xtashni taqiqlovchi joylarni bildiruvchi sidirg'a sariq chiziq qayerda chiziladi?",
                 "options": [
                     {
                         "id": 1,
@@ -30382,7 +30382,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Sarik avtomobil haydovchisi",
+                        "text": "sariq avtomobil haydovchisi",
                         "is_correct": false
                     },
                     {
@@ -30622,12 +30622,12 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Sarik va qizil avtomobillarga",
+                        "text": "sariq va qizil avtomobillarga",
                         "is_correct": true
                     },
                     {
                         "id": 2,
-                        "text": "Tramvay, sarik va qizil avtomobilga",
+                        "text": "Tramvay, sariq va qizil avtomobilga",
                         "is_correct": false
                     },
                     {
@@ -31588,7 +31588,7 @@
         "media_url": "u386uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Sarik uzuq-uzuq yotiq chiziq qaysi yo'l belgisi bilan qo'llanilishi mumkin?",
+                "text": "sariq uzuq-uzuq yotiq chiziq qaysi yo'l belgisi bilan qo'llanilishi mumkin?",
                 "options": [
                     {
                         "id": 1,
@@ -31662,7 +31662,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Sarik avtomobil",
+                        "text": "sariq avtomobil",
                         "is_correct": false
                     },
                     {
@@ -35058,7 +35058,7 @@
         "media_url": "",
         "content": {
             "uz_lat": {
-                "text": "Agar haydovchi keskin tormoz bermasdan harakatni to'xtata olmasa, svetaforning yashil ishorasidan keyin yongan sarik ishorasida harakatni davom ettirishga ruxsat beriladimi?",
+                "text": "Agar haydovchi keskin tormoz bermasdan harakatni to'xtata olmasa, svetaforning yashil ishorasidan keyin yongan sariq ishorasida harakatni davom ettirishga ruxsat beriladimi?",
                 "options": [
                     {
                         "id": 1,
@@ -36252,7 +36252,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Sarik ishora",
+                        "text": "sariq ishora",
                         "is_correct": false
                     },
                     {
@@ -38067,7 +38067,7 @@
                     },
                     {
                         "id": 3,
-                        "text": "Old qismida - oq yoki sarik rangli tumanga qarshi faralar o'rnatilgan bo'lsa",
+                        "text": "Old qismida - oq yoki sariq rangli tumanga qarshi faralar o'rnatilgan bo'lsa",
                         "is_correct": true
                     }
                 ]
@@ -39057,7 +39057,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "text": "Oq, ko'k va sarik avtomobillarga",
+                        "text": "Oq, ko'k va sariq avtomobillarga",
                         "is_correct": false
                     },
                     {
@@ -39123,7 +39123,7 @@
         "media_url": "u139uz.webp",
         "content": {
             "uz_lat": {
-                "text": "Qaysi rasmda sarik avtomobil haydovchisi qizil avtomobilga yo‘l berishi kerak?",
+                "text": "Qaysi rasmda sariq avtomobil haydovchisi qizil avtomobilga yo‘l berishi kerak?",
                 "options": [
                     {
                         "id": 1,
@@ -41367,7 +41367,7 @@
                     },
                     {
                         "id": 2,
-                        "text": "Sarik avtomobil haydovchisi",
+                        "text": "sariq avtomobil haydovchisi",
                         "is_correct": false
                     }
                 ]
@@ -44432,7 +44432,7 @@
                     },
                     {
                         "id": 2,
-                        "text": "Sarik avtomobil",
+                        "text": "sariq avtomobil",
                         "is_correct": true
                     },
                     {

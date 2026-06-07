@@ -3,9 +3,10 @@ from aiogram.types import (
     InlineKeyboardMarkup,
     KeyboardButton,
     ReplyKeyboardMarkup,
+    WebAppInfo,
 )
 
-from bot.config import LANG_LABELS
+from bot.config import LANG_LABELS, PRO_CONTACT, PRO_PLANS, WEBAPP_URL
 
 
 def main_menu_kb() -> ReplyKeyboardMarkup:
@@ -20,6 +21,13 @@ def main_menu_kb() -> ReplyKeyboardMarkup:
                 KeyboardButton(text="📊 Statistika"),
             ],
             [
+                KeyboardButton(text="✦ PRO Obuna"),
+                KeyboardButton(
+                    text="🔐 Kirish",
+                    web_app=WebAppInfo(url=WEBAPP_URL),
+                ),
+            ],
+            [
                 KeyboardButton(text="🌐 Til"),
                 KeyboardButton(text="⚙️ Sozlamalar"),
             ],
@@ -28,16 +36,65 @@ def main_menu_kb() -> ReplyKeyboardMarkup:
     )
 
 
-def quiz_control_kb(show_next: bool = True) -> InlineKeyboardMarkup:
-    buttons = []
-    if show_next:
-        buttons.append(
-            [InlineKeyboardButton(text="➡️ Keyingi savol", callback_data="quiz:next")]
-        )
-    buttons.append(
-        [InlineKeyboardButton(text="🛑 Testni tugatish", callback_data="quiz:stop")]
+def pro_main_kb() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(
+        inline_keyboard=[
+            [
+                InlineKeyboardButton(
+                    text="🔐 Sayt orqali kirish",
+                    web_app=WebAppInfo(url=WEBAPP_URL),
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="🎁 Sinab ko'rish",
+                    web_app=WebAppInfo(url=f"{WEBAPP_URL}/trial"),
+                ),
+                InlineKeyboardButton(
+                    text="💎 PRO olish",
+                    callback_data="pro:plans",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text=f"💬 Admin bilan bog'lanish",
+                    url=f"https://t.me/{PRO_CONTACT.lstrip('@')}",
+                ),
+            ],
+        ]
     )
-    return InlineKeyboardMarkup(inline_keyboard=buttons)
+
+
+def pro_plans_kb() -> InlineKeyboardMarkup:
+    rows = []
+    for plan_id, plan in PRO_PLANS.items():
+        badge = f"{plan['badge']} " if plan["badge"] else ""
+        rows.append(
+            [
+                InlineKeyboardButton(
+                    text=f"{badge}{plan['title']} — {plan['price']} so'm",
+                    web_app=WebAppInfo(url=f"{WEBAPP_URL}/subscribe/{plan_id}"),
+                )
+            ]
+        )
+    rows.append(
+        [
+            InlineKeyboardButton(
+                text="🔐 Kirish (Web App)",
+                web_app=WebAppInfo(url=WEBAPP_URL),
+            ),
+        ]
+    )
+    rows.append(
+        [
+            InlineKeyboardButton(
+                text=f"📩 {PRO_CONTACT}",
+                url=f"https://t.me/{PRO_CONTACT.lstrip('@')}",
+            ),
+            InlineKeyboardButton(text="⬅️ Orqaga", callback_data="pro:back"),
+        ]
+    )
+    return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
 def language_kb() -> InlineKeyboardMarkup:
@@ -62,6 +119,12 @@ def settings_kb(daily_enabled: bool) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         inline_keyboard=[
             [InlineKeyboardButton(text=toggle_text, callback_data="settings:daily")],
+            [
+                InlineKeyboardButton(
+                    text="✦ PRO Obuna",
+                    callback_data="pro:show",
+                ),
+            ],
         ]
     )
 
