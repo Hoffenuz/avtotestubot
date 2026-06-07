@@ -21,6 +21,14 @@ pip install -r requirements.txt
 
 ## Ishga tushirish
 
+Loyiha papkasida (`mybot2`) turib:
+
+```bash
+python run.py
+```
+
+yoki:
+
 ```bash
 python -m bot.main
 ```
@@ -36,3 +44,6 @@ python -m bot.main
 
 Rasmlar `600.json` dagi `media_url` (masalan `u1uz.webp`) orqali yuklanadi:
 `https://www.avtotestu.uz/images/u1uz.webp`
+
+
+pip install -r requirements.txt
